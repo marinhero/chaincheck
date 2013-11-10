@@ -5,18 +5,20 @@
 ## Login   <alcara_m@epitech.net>
 ##
 ## Started on  Fri Aug 16 00:22:04 2013 Marin Alcaraz
-## Last update Thu Nov 07 19:49:52 2013 Marin Alcaraz
+## Last update Sat Nov 09 22:59:09 2013 Marin Alcaraz
 ##
 
 NAME 	= 	chain_check
 
 SRC 	= 	File_handler.cpp 		\
 			Exception.cpp 			\
+			Grammar.cpp 			\
+			Parser.cpp 				\
 			main.cpp
 
 OBJ 	= 	$(SRC:.cpp=.o)
 
-CFLAGS 	= 	-Wall -Wextra
+CFLAGS 	= 	-Wall -Wextra -g3
 
 CC 		= 	g++
 
@@ -29,7 +31,7 @@ ECHO 	= 	echo
 all: $(NAME)
 
 $(NAME): 	$(OBJ)
-			$(CC) $(OBJ) -Wall -Werror -Wextra  $(CFLAGS) -o $(NAME)
+			$(CC) $(OBJ) -Wall -Wextra $(CFLAGS) -o $(NAME)
 		 	@$(ECHO) '> Compiled'
 
 clean:

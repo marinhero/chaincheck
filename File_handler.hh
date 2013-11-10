@@ -5,13 +5,13 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:58:28 2013 Marin Alcaraz
-// Last update Thu Nov 07 19:44:44 2013 Marin Alcaraz
+// Last update Sat Nov 09 21:52:55 2013 Marin Alcaraz
 //
 
 #ifndef FILE_HANDLER_HH_
 # define FILE_HANDLER_HH_
 
-#include <fstream> //implicit construction for _file
+#include <fstream>
 
 #define LINE_BY_LINE    1
 #define BULK            2

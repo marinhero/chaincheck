@@ -5,19 +5,25 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 18:25:58 2013 Marin Alcaraz
-// Last update Sun Nov 10 12:40:48 2013 Marin Alcaraz
+// Last update Thu Nov 14 15:42:50 2013 Marin Alcaraz
 //
 
 #include <string>
 #include <iostream>
 #include <fstream>
+#include "Grammar.hh"
 #include "File_handler.hh"
+#include "Parser.hh"
 
 
 int                 initializer(std::string grammar, std::string chains)
 {
-    File_handler    gf(grammar);
-    File_handler    cf(grammar);
+    File_handler    grammar_file(grammar);
+    File_handler    chain_file(chains);
+    Grammar         my_grammar("My_grammar");
+    Parser          my_parser("My_parser");
+
+    my_parser.parse_grammar(my_grammar, grammar_file);
     return (0);
 }
 

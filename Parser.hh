@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 22:47:28 2013 Marin Alcaraz
-// Last update Thu Nov 14 16:53:07 2013 Marin Alcaraz
+// Last update Thu Nov 14 18:12:36 2013 Marin Alcaraz
 //
 
 #ifndef PARSER_HH_
@@ -34,6 +34,8 @@ class Parser
                                         File_handler &f);
         void                        tokenizer(std::string,
                                         Grammar &grammar, std::string);
+        void                        rule_builder(std::string, Grammar &grammar);
+        void                        map_rule(std::string, std::string);
 };
 
 #endif /* !PARSER_HH_ */

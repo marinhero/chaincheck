@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:47:26 2013 Marin Alcaraz
-// Last update Thu Nov 14 20:27:06 2013 Marin Alcaraz
+// Last update Fri Nov 15 10:32:12 2013 Marin Alcaraz
 //
 
 #ifndef GRAMMAR_HH_
@@ -25,7 +25,6 @@ class Grammar
 
         Grammar(std::string);
         ~Grammar();
-        Grammar(const Grammar &);
         Grammar operator=(const Grammar &);
 
         void push_back(std::string, std::string);

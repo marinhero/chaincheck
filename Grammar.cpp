@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Thu Nov 14 20:31:04 2013 Marin Alcaraz
+// Last update Fri Nov 15 09:28:24 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -56,6 +56,6 @@ std::ostream    &operator<<(std::ostream& os, Grammar &g)
         std::cout << map_val << std::endl;
         map_val = "";
     }
-    std::cout << "/***** END OF GRAMMAR INFORMATION *****\\" << std::endl;
+    std::cout << "/***** END OF GRAMMAR INFORMATION *****\\";
     return (os);
 }

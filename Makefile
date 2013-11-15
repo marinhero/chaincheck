@@ -5,7 +5,7 @@
 ## Login   <alcara_m@epitech.net>
 ##
 ## Started on  Fri Aug 16 00:22:04 2013 Marin Alcaraz
-## Last update Sat Nov 09 22:59:09 2013 Marin Alcaraz
+## Last update Fri Nov 15 10:20:48 2013 Marin Alcaraz
 ##
 
 NAME 	= 	chain_check
@@ -13,6 +13,7 @@ NAME 	= 	chain_check
 SRC 	= 	File_handler.cpp 		\
 			Exception.cpp 			\
 			Grammar.cpp 			\
+			Validator.cpp 			\
 			Parser.cpp 				\
 			main.cpp
 

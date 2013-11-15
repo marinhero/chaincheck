@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 22:47:28 2013 Marin Alcaraz
-// Last update Thu Nov 14 18:12:36 2013 Marin Alcaraz
+// Last update Fri Nov 15 10:23:03 2013 Marin Alcaraz
 //
 
 #ifndef PARSER_HH_
@@ -29,6 +29,8 @@ class Parser
 
         Parser(std::string);
         ~Parser();
+        Parser(const Parser &);
+        Parser &operator=(const Parser &);
 
         void                        parse_grammar(Grammar &g,
                                         File_handler &f);

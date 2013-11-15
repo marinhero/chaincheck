@@ -5,7 +5,7 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 18:25:58 2013 Marin Alcaraz
-// Last update Thu Nov 14 15:42:50 2013 Marin Alcaraz
+// Last update Thu Nov 14 20:26:40 2013 Marin Alcaraz
 //
 
 #include <string>
@@ -24,6 +24,7 @@ int                 initializer(std::string grammar, std::string chains)
     Parser          my_parser("My_parser");
 
     my_parser.parse_grammar(my_grammar, grammar_file);
+    std::cout << my_grammar << std::endl;
     return (0);
 }
 

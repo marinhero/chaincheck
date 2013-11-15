@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Thu Nov 14 18:05:15 2013 Marin Alcaraz
+// Last update Thu Nov 14 20:31:04 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -32,4 +32,30 @@ void Grammar::push_back(std::string token, std::string v_name)
     else
         std::cout << "[!] Warning: No vector called: " << v_name
             << " in Grammar: " << this->_name << " was found ";
+}
+
+std::ostream    &operator<<(std::ostream& os, Grammar &g)
+{
+    std::vector<std::string>::iterator              it;
+    std::map<std::string, std::string>::iterator    iter;
+    std::string                                     map_val;
+
+    std::cout << "/***** GRAMMAR INFORMATION *****\\" << std::endl;
+    std::cout << "[*] TERMINALS: " << std::endl;
+    for (it = g._terminals.begin() ; it != g._terminals.end() ; ++it)
+        std::cout << *it << std::endl;
+    std::cout << "[*] NON_TERMINALS: " << std::endl;
+    for (it = g._nonterminals.begin() ; it != g._nonterminals.end() ; ++it)
+        std::cout << *it << std::endl;
+    std::cout << "[*] PRODUCTIONS: " << std::endl;
+    for (iter = g._rules.begin(); iter != g._rules.end(); ++iter)
+    {
+        map_val.append(iter->first); //Not a method call
+        map_val.append("=");
+        map_val.append(iter->second);
+        std::cout << map_val << std::endl;
+        map_val = "";
+    }
+    std::cout << "/***** END OF GRAMMAR INFORMATION *****\\" << std::endl;
+    return (os);
 }

@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:47:26 2013 Marin Alcaraz
-// Last update Thu Nov 14 19:59:56 2013 Marin Alcaraz
+// Last update Thu Nov 14 20:27:06 2013 Marin Alcaraz
 //
 
 #ifndef GRAMMAR_HH_
@@ -30,5 +30,7 @@ class Grammar
 
         void push_back(std::string, std::string);
 };
+
+std::ostream    &operator<<(std::ostream& os, Grammar &g);
 
 #endif /* END OF GRAMMAR */

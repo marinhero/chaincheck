@@ -2,7 +2,7 @@ Chaincheck
 ==========
 
 Proyecto final de teoría de la computación.<br />
-ITESM 2013.
+ITESM 2013.<br />
 Integrantes del equipo:<br />
 Pedro Orellana Manzano<br />
 Luis Eduardo Espinosa<br />

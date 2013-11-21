@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Fri Nov 15 09:28:24 2013 Marin Alcaraz
+// Last update Thu Nov 21 01:45:00 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -32,6 +32,44 @@ void Grammar::push_back(std::string token, std::string v_name)
     else
         std::cout << "[!] Warning: No vector called: " << v_name
             << " in Grammar: " << this->_name << " was found ";
+}
+
+bool Grammar::contains(std::string token)
+{
+    std::vector<std::string>::iterator it;
+
+    for (it = _terminals.begin(); it != _terminals.end(); it++)
+    {
+        if (*it == token)
+            return (true);
+    }
+    return (false);
+}
+
+bool Grammar::contains_nonterm(std::string token)
+{
+    std::vector<std::string>::iterator it;
+
+    for (it = _nonterminals.begin(); it != _nonterminals.end(); it++)
+    {
+        if (token.find(*it) != std::string::npos)
+            return (true);
+    }
+    return (false);
+}
+
+std::string     Grammar::get_key(std::string current,  std::string predict)
+{
+    std::multimap<std::string, std::string>::iterator it;
+
+    it = _rules.begin();
+    while (it != _rules.end())
+    {
+        if ((it->second).find(current) != std::string::npos)
+            return (it->first);
+        ++it;
+    }
+    return ("NULL");
 }
 
 std::ostream    &operator<<(std::ostream& os, Grammar &g)

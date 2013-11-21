@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:47:26 2013 Marin Alcaraz
-// Last update Fri Nov 15 10:32:12 2013 Marin Alcaraz
+// Last update Thu Nov 21 00:49:25 2013 Marin Alcaraz
 //
 
 #ifndef GRAMMAR_HH_
@@ -27,7 +27,10 @@ class Grammar
         ~Grammar();
         Grammar operator=(const Grammar &);
 
-        void push_back(std::string, std::string);
+        void            push_back(std::string, std::string);
+        bool            contains(std::string);
+        bool            contains_nonterm(std::string);
+        std::string     get_key(std::string, std::string);
 };
 
 std::ostream    &operator<<(std::ostream& os, Grammar &g);

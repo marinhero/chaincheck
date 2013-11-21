@@ -1,11 +1,11 @@
 //
-// File_handler.cpp for chaincheck in /Users/Marin/Dropbox/Code/chaincheck
+// File_handler.cpp for chaincheck in /Users/Marin/chaincheck
 //
 // Made by Marin Alcaraz
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:57:09 2013 Marin Alcaraz
-// Last update Thu Nov 14 16:21:54 2013 Marin Alcaraz
+// Last update Thu Nov 21 11:41:05 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -15,7 +15,7 @@
 File_handler::File_handler(std::string fn) : _file_name(fn), _status(0)
 {
     std::cout <<"[+] Constructor: ";
-    _file.open(_file_name);
+    _file.open(_file_name.c_str());
     if (_file.is_open() == false)
         throw IOErrorException("[-] File_handler: Unable to open file: "
                 + _file_name);

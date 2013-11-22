@@ -15,7 +15,11 @@
 #include "File_handler.hh"
 
 #define  END_SYMBOL "$"
+/*
+    Constructorde la clase Validator
+    Recibe la cadena a verificar como parte de la gramática en forma de string.
 
+*/
 Validator::Validator(std::string n) : _name(n)
 {
     std::string end_symbol;
@@ -25,9 +29,17 @@ Validator::Validator(std::string n) : _name(n)
     _derivation = "";
 }
 
+/*
+    Destructor de la clase Validator
+*/
+
 Validator::~Validator()
 {
 }
+
+/*
+    Imprime el stack que va llevando el control de la validación
+*/
 
 void Validator::show_stack()
 {
@@ -35,6 +47,13 @@ void Validator::show_stack()
         std::cout << dump.top() << ",";
     std::cout << std::endl;
 }
+
+/*
+    Verificador del alfabeto. 
+    Recorre el string con la cadena a verificar, y verifica si todos los componentes que pertenecen a la cadena son parte de la gramática
+    Si alguno no es parte de la gramática, la cadena no puede ser una cadena derivada de la gramática.
+    Si si es partre de la gramática, se continua al siguiente nivel de verificación
+*/
 
 bool Validator::verify_alphabet(Grammar  &g, std::string chain)
 {
@@ -49,6 +68,12 @@ bool Validator::verify_alphabet(Grammar  &g, std::string chain)
    }
    return (true);
 }
+
+/*
+    Busca dentro del  multimap la regla que queda con la parte de la cadena que esta siendo analizada en el momento. 
+    Si no hay regla, significa que la parte actual de la cadena no pertenece a la gramática, por lo que la cadena no es parte de la cadena
+    Si si hay regla, se continua con el siguiente nivel de validación
+*/
 
 std::string Validator::get_rule(Grammar &g, std::string current, std::string predict)
 {
@@ -75,6 +100,11 @@ std::string Validator::get_rule(Grammar &g, std::string current, std::string pre
     return ("NO-RULE");
 }
 
+/*
+    Esta función hace efectiva la regla de la verificación actual de la cadena, y hace un pop
+    de la cadena actual para seguir validando el resto de la cadena
+*/
+
 bool Validator::rule_handler(Grammar &g, std::string const &current_token,
             std::string const &prediction_token)
 {
@@ -91,6 +121,11 @@ bool Validator::rule_handler(Grammar &g, std::string const &current_token,
     return (true);
 }
 
+/*
+    Esta funcion verifica que haya una regla para el elemento de la cadena que se esta analizando en el momento, y después hace efectiva esta regla
+    Si no  hay regla para ese elemento, la cadena no pertenece a la gramática actualmente utilizada
+*/
+
 bool Validator::stack_validator(Grammar &g, std::string const &current_token,
         std::string const &prediction_token)
 {
@@ -105,6 +140,12 @@ bool Validator::stack_validator(Grammar &g, std::string const &current_token,
         return (false);
     return (true);
 }
+
+/*
+    Verifica caracter a caracter que la cadena pertenezca a la Gramática regular analizada.
+    Utiliza las funciones anteriormente definidas para verificar que para cada uno de los e-
+    lementos haya una regla que pueda derivar.
+*/
 
 bool Validator::verify_chain(Grammar &g, std::string chain)
 {
@@ -129,6 +170,10 @@ bool Validator::verify_chain(Grammar &g, std::string chain)
     return (false);
 }
 
+/*
+    Hace un push al stack debido a la regla utilizada, y utilizando tokens
+*/
+
 void Validator::token_push(std::string rule)
 {
     int i;
@@ -143,6 +188,10 @@ void Validator::token_push(std::string rule)
         i = i - 1;
     }
 }
+
+/*
+    Limpia la substack utilizada para tener todas las cadenas
+*/
 
 void Validator::clearsubstack(Grammar &g)
 {
@@ -179,6 +228,9 @@ void Validator::log_result(Grammar &g, std::string line)
     clearsubstack(g);
 }
 
+/*
+    Verifica todas y cada una de las cadenas dentro del archivo de texto y muestra en pantalla si pertenecen o no a la gramática
+*/ 
 void Validator::verify(Grammar &g, File_handler &chains)
 {
     File_handler            output("output.txt");

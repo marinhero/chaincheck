@@ -5,8 +5,17 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Fri Nov 22 00:05:47 2013 Marin Alcaraz
+// Last update Thu Nov 21 01:45:00 2013 Marin Alcaraz
 //
+/*
+    Grammar.cpp se encarga de preparar la gramática para que pueda ser usada en el mapeo y hacer uso de otras librerías:
+    Descripción de Métodos:
+    - Constructor y Destructur
+    - Agregación de símbolos terminales y no terminales al stack usando un token y un vector (v_name)
+    - Búsqueda de símbolos terminales y no terminales.
+    - Obtención del "key" para el multimapeo.
+    - Sobecarga de operadores para el despliegue de los componentes de la gramática (símbolos terminales y SNTs).
+*/
 
 #include <iostream>
 #include "Grammar.hh"
@@ -14,10 +23,13 @@
 
 Grammar::Grammar(std::string name) : _name(name)
 {
+    std::cout << "[+] Constructor: Called Grammar constructor. "
+            << " Grammar object initialized with name: " << _name << std::endl;
 }
 
 Grammar::~Grammar()
 {
+    std::cout <<"[+] Destructor: Called Grammar Destructor" << std::endl;
 }
 
 void Grammar::push_back(std::string token, std::string v_name)

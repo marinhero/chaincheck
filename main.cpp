@@ -7,6 +7,12 @@
 // Started on  Thu Nov 07 18:25:58 2013 Marin Alcaraz
 // Last update Mon Nov 18 15:37:52 2013 Marin Alcaraz
 //
+/*
+    Descripción de métodos:
+    - Inicialización de la gramática contenida en archivo de entrada.
+    - Validación de la gramática usando las cadenas contenidas en archivo de entrada.
+    - Método principal (main) que ejecuta los métodos anteriormente mencionados.
+*/
 
 #include <string>
 #include <iostream>

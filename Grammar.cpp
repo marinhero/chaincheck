@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Thu Nov 21 01:45:00 2013 Marin Alcaraz
+// Last update Fri Nov 22 02:09:36 2013 Marin Alcaraz
 //
 /*
     Grammar.cpp se encarga de preparar la gramática para que pueda ser usada en el mapeo y hacer uso de otras librerías:
@@ -23,13 +23,10 @@
 
 Grammar::Grammar(std::string name) : _name(name)
 {
-    std::cout << "[+] Constructor: Called Grammar constructor. "
-            << " Grammar object initialized with name: " << _name << std::endl;
 }
 
 Grammar::~Grammar()
 {
-    std::cout <<"[+] Destructor: Called Grammar Destructor" << std::endl;
 }
 
 void Grammar::push_back(std::string token, std::string v_name)

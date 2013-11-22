@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 22:43:20 2013 Marin Alcaraz
-// Last update Thu Nov 21 02:27:34 2013 Marin Alcaraz
+// Last update Fri Nov 22 02:09:54 2013 Marin Alcaraz
 //
 /*
     Parser.cpp se encarga de construir el set de reglas, el cual se saca a partir de una gramática:
@@ -24,14 +24,10 @@
 
 Parser::Parser(std::string n) : _name(n)
 {
-    std::cout << "[+] Constructor: Called Parser constructor. "
-            << " Parser object initialized with name: " << _name <<
-            std::endl;
 }
 
 Parser::~Parser()
 {
-    std::cout <<"[+] Destructor: Called Parser Destructor" << std::endl;
 }
 
 void        Parser::tokenizer(std::string line, Grammar &grammar,

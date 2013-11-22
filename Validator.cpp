@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Fri Nov 15 10:14:36 2013 Marin Alcaraz
-// Last update Fri Nov 22 00:22:46 2013 Marin Alcaraz
+// Last update Fri Nov 22 01:52:07 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -63,15 +63,14 @@ std::string Validator::get_rule(Grammar &g, std::string current, std::string pre
     for (; it != range.second; ++it)
     {
         if (g.contains_nonterm(it->second) == false
-                && it->second == current
                 && it->first == _substack.top()
+                && it->second == current
                 && current != predict)
             return (it->second);
         else if (g.contains_nonterm(it->second) == true
                 && it->first == _substack.top()
                 && current == predict)
-                return (it->second);
-
+            return (it->second);
     }
     return ("NO-RULE");
 }

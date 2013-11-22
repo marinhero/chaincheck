@@ -1,0 +1,5 @@
+terminales=a,b
+noterminales=A,B
+S,AB
+A,a
+B,b

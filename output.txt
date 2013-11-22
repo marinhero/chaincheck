@@ -31,3 +31,931 @@ Arbol binario[in-order]: AB-a-bB-b
 [+] CHAIN ACCEPTED BY GRAMMAR
 Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
 -------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [acab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [c]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-b
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-bB-b
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
+[+] Validator: chain [teoria]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [baba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [teoria]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [baba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-b
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [teoria]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [baba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
+[+] Validator: chain [aaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aabab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [bb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-bB-b
+[+] Validator: chain [aaabbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [teoria]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [baba]
+[-] CHAIN REJECTED BY GRAMMAR
+-------------------END OF RUN----------------

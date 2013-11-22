@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Sat Nov 09 21:38:00 2013 Marin Alcaraz
-// Last update Thu Nov 21 01:45:00 2013 Marin Alcaraz
+// Last update Fri Nov 22 00:05:47 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -14,13 +14,10 @@
 
 Grammar::Grammar(std::string name) : _name(name)
 {
-    std::cout << "[+] Constructor: Called Grammar constructor. "
-            << " Grammar object initialized with name: " << _name << std::endl;
 }
 
 Grammar::~Grammar()
 {
-    std::cout <<"[+] Destructor: Called Grammar Destructor" << std::endl;
 }
 
 void Grammar::push_back(std::string token, std::string v_name)

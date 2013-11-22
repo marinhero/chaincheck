@@ -5,7 +5,7 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:57:09 2013 Marin Alcaraz
-// Last update Thu Nov 21 23:32:54 2013 Marin Alcaraz
+// Last update Fri Nov 22 00:06:35 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -16,23 +16,17 @@
 
 File_handler::File_handler(std::string fn) : _file_name(fn), _status(0)
 {
-    std::cout <<"[+] Constructor: ";
     _file.open(_file_name.c_str());
     if (_file.is_open() == false)
         throw IOErrorException("[-] File_handler: Unable to open file: "
                 + _file_name);
     _status = 1;
-    std::cout << "[+] File Handler: opened file: "
-        << _file_name << std::endl;
-    std::cout << *this << std::endl;
 }
 
 File_handler::~File_handler()
 {
-    std::cout <<"[+] Destructor: ";
     _file.close();
     _status = 0;
-    std::cout << *this << std::endl;
 }
 
 void File_handler::save_string(std::stringstream &input)

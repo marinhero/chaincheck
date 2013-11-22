@@ -1,7 +1,7 @@
 // Validator.hh for chaincheck in /Users/Marin/Dropbox/Code/chaincheck
 //
 // Started on  Fri Nov 15 10:12:41 2013 Marin Alcaraz
-// Last update Thu Nov 21 22:04:27 2013 Marin Alcaraz
+// Last update Fri Nov 22 00:22:13 2013 Marin Alcaraz
 //
 
 #ifndef VALIDATOR_HH_
@@ -18,6 +18,7 @@ class Validator
     public:
         std::string                         _name;
         std::stack<std::string>             _substack;
+        std::string                         _derivation;
 
         Validator(std::string);
         ~Validator();
@@ -35,6 +36,7 @@ class Validator
                             std::string const &);
         bool            stack_validator(Grammar &g, std::string const &,
                             std::string const &);
+        void            log_result(Grammar &, std::string);
 };
 
 #endif /* !VALIDATOR_HH_ */

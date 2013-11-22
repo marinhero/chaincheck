@@ -5,7 +5,7 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Fri Nov 15 10:14:36 2013 Marin Alcaraz
-// Last update Thu Nov 21 23:26:23 2013 Marin Alcaraz
+// Last update Fri Nov 22 00:22:46 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -21,15 +21,12 @@ Validator::Validator(std::string n) : _name(n)
     std::string end_symbol;
 
     end_symbol = END_SYMBOL;
-    std::cout << "[+] Constructor: Validator Object initialized"
-        " with name: " << _name << std::endl;
     _substack.push(end_symbol);
+    _derivation = "";
 }
 
 Validator::~Validator()
 {
-    std::cout << "[+] Destructor: Validator Object destroyed"
-        << std::endl;
 }
 
 void Validator::show_stack()
@@ -138,6 +135,7 @@ void Validator::token_push(std::string rule)
     int i;
 
     i = rule.length() - 1;
+    _derivation.append("-" + rule);
     while (i >= 0)
     {
         std::string str;
@@ -155,6 +153,31 @@ void Validator::clearsubstack(Grammar &g)
         _substack.pop();
     initial_rule = g._rules.find("S")->second;
     token_push(initial_rule);
+    _derivation = g._rules.find("S")->second;
+}
+
+void Validator::log_result(Grammar &g, std::string line)
+{
+    std::stringstream       outline_stream;
+    File_handler            output("output.txt");
+
+    if (verify_chain(g, line))
+    {
+        outline_stream << "[+] CHAIN ACCEPTED BY GRAMMAR" << std::endl;
+        std::cout << outline_stream.str();
+        output.save_string(outline_stream);
+        outline_stream << "Arbol binario[in-order]: " << _derivation << std::endl;
+        std::cout << outline_stream.str();
+        output.save_string(outline_stream);
+        _derivation = "";
+    }
+    else
+    {
+        outline_stream << "[-] CHAIN REJECTED BY GRAMMAR" << std::endl;
+        std::cout << outline_stream.str();
+        output.save_string(outline_stream);
+    }
+    clearsubstack(g);
 }
 
 void Validator::verify(Grammar &g, File_handler &chains)
@@ -170,21 +193,7 @@ void Validator::verify(Grammar &g, File_handler &chains)
         std::cout << outline_stream.str();
         output.save_string(outline_stream);
         if (verify_alphabet(g, line))
-        {
-            if (verify_chain(g, line))
-            {
-                outline_stream << "[+] CHAIN ACCEPTED BY GRAMMAR" << std::endl;
-                std::cout << outline_stream.str();
-                output.save_string(outline_stream);
-            }
-            else
-            {
-                outline_stream << "[-] CHAIN REJECTED BY GRAMMAR" << std::endl;
-                std::cout << outline_stream.str();
-                output.save_string(outline_stream);
-            }
-            clearsubstack(g);
-        }
+            log_result(g, line);
         else
         {
             outline_stream << "[-] Error: invalid chain, "

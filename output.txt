@@ -1,7 +1,9 @@
 [+] Validator: chain [ab]
 [+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-b
 [+] Validator: chain [aaabbb]
 [+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-a-bB-bB-b
 [+] Validator: chain [bbbbbb]
 [-] CHAIN REJECTED BY GRAMMAR
 [+] Validator: chain [ama]
@@ -20,10 +22,12 @@
 [-] CHAIN REJECTED BY GRAMMAR
 [+] Validator: chain [abb]
 [+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-a-bB-b
 [+] Validator: chain [bba]
 [-] CHAIN REJECTED BY GRAMMAR
 [+] Validator: chain [aaa]
 [-] CHAIN REJECTED BY GRAMMAR
 [+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
 [+] CHAIN ACCEPTED BY GRAMMAR
+Arbol binario[in-order]: AB-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-aA-a-b
 -------------------END OF RUN----------------

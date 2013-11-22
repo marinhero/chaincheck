@@ -5,10 +5,12 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:57:09 2013 Marin Alcaraz
-// Last update Thu Nov 14 16:21:54 2013 Marin Alcaraz
+// Last update Thu Nov 21 23:21:47 2013 Marin Alcaraz
 //
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
 #include "File_handler.hh"
 #include "Exception.hh"
 
@@ -31,6 +33,24 @@ File_handler::~File_handler()
     _file.close();
     _status = 0;
     std::cout << *this << std::endl;
+}
+
+void File_handler::save_string(std::stringstream &input)
+{
+    std::ofstream output_file;
+
+    try
+    {
+        output_file.open(_file_name, std::fstream::app | std::fstream::out);
+    }
+    catch(std::exception &e)
+    {
+        std::cout << "Error openning file" << std::endl;
+    }
+    output_file << input.str();
+    output_file.close();
+    input.clear();
+    input.str(std::string());
 }
 
 std::ostream        &operator<<(std::ostream& os, const File_handler &f)

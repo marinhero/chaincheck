@@ -5,7 +5,7 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:58:28 2013 Marin Alcaraz
-// Last update Fri Nov 15 10:23:06 2013 Marin Alcaraz
+// Last update Thu Nov 21 23:09:28 2013 Marin Alcaraz
 //
 
 #ifndef FILE_HANDLER_HH_
@@ -31,7 +31,7 @@ class File_handler
         ~File_handler();
         File_handler(const File_handler &);
         File_handler &operator=(const File_handler &);
-
+        void save_string(std::stringstream &input);
 };
 
 std::ostream &operator<<(std::ostream& os, const File_handler&);

@@ -5,10 +5,11 @@
 // Login   <marin.alcaraz@gmail.com>
 //
 // Started on  Fri Nov 15 10:14:36 2013 Marin Alcaraz
-// Last update Thu Nov 21 02:24:24 2013 Marin Alcaraz
+// Last update Thu Nov 21 23:26:23 2013 Marin Alcaraz
 //
 
 #include <iostream>
+#include <sstream>
 #include "Validator.hh"
 #include "Grammar.hh"
 #include "File_handler.hh"
@@ -158,21 +159,41 @@ void Validator::clearsubstack(Grammar &g)
 
 void Validator::verify(Grammar &g, File_handler &chains)
 {
-    std::string     line;
+    File_handler            output("output.txt");
+    std::string             line;
+    std::stringstream       outline_stream;
 
     clearsubstack(g);
     while (chains._file >> line)
     {
-        std::cout << "[+] Validator: chain [" << line << "]" << std::endl;
+        outline_stream << "[+] Validator: chain [" << line << "]" << std::endl;
+        std::cout << outline_stream.str();
+        output.save_string(outline_stream);
         if (verify_alphabet(g, line))
         {
             if (verify_chain(g, line))
-                std::cout << "[+] CHAIN ACCEPTED BY GRAMMAR" << std::endl;
+            {
+                outline_stream << "[+] CHAIN ACCEPTED BY GRAMMAR" << std::endl;
+                std::cout << outline_stream.str();
+                output.save_string(outline_stream);
+            }
             else
-                std::cout << "[-] CHAIN REJECTED BY GRAMMAR" << std::endl;
+            {
+                outline_stream << "[-] CHAIN REJECTED BY GRAMMAR" << std::endl;
+                std::cout << outline_stream.str();
+                output.save_string(outline_stream);
+            }
             clearsubstack(g);
         }
         else
-            std::cout << "[-] Error: invalid chain, undefined symbols on the string" << std::endl;
+        {
+            outline_stream << "[-] Error: invalid chain, "
+                "undefined symbols on the string" << std::endl;
+            std::cout << outline_stream.str();
+            output.save_string(outline_stream);
+        }
     }
+    outline_stream << "-------------------END OF RUN----------------"
+        << std::endl;
+    output.save_string(outline_stream);
 }

@@ -1,0 +1,29 @@
+[+] Validator: chain [ab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+[+] Validator: chain [aaabbb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+[+] Validator: chain [bbbbbb]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [ama]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [an]
+[-] Error: invalid chain, undefined symbols on the string
+[+] Validator: chain [ba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [babaab]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [b]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [a]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [abb]
+[+] CHAIN ACCEPTED BY GRAMMAR
+[+] Validator: chain [bba]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaa]
+[-] CHAIN REJECTED BY GRAMMAR
+[+] Validator: chain [aaaaaaaaaaaaaaaaaaaaab]
+[+] CHAIN ACCEPTED BY GRAMMAR
+-------------------END OF RUN----------------

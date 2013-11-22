@@ -5,7 +5,7 @@
 // Login   <A01203109@itesm.mx>
 //
 // Started on  Thu Nov 07 16:57:09 2013 Marin Alcaraz
-// Last update Thu Nov 21 23:21:47 2013 Marin Alcaraz
+// Last update Thu Nov 21 23:32:54 2013 Marin Alcaraz
 //
 
 #include <iostream>
@@ -17,7 +17,7 @@
 File_handler::File_handler(std::string fn) : _file_name(fn), _status(0)
 {
     std::cout <<"[+] Constructor: ";
-    _file.open(_file_name);
+    _file.open(_file_name.c_str());
     if (_file.is_open() == false)
         throw IOErrorException("[-] File_handler: Unable to open file: "
                 + _file_name);
